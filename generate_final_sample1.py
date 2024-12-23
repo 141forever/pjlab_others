@@ -1,3 +1,4 @@
+# ['A019705','A032970','A061372','A134906','A171934','A295363','A304906','A360411']
 def generate_final_sample(vis,target_folders,origin_data_dict):
     for path in target_folders:
         problem_id_now = path[path.rfind('/') + 1:]
